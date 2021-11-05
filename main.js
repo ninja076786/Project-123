@@ -36,7 +36,7 @@ function preload(){
     function draw(){
         background("#6C91C2");
         document.getElementById("text_size").innerHTML=difference;
-        //text-size(difference);
+        textSize(difference);
         fill('#FFB787');
         text('Joseph T.',50,400);
 
